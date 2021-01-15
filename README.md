@@ -2,7 +2,7 @@
 
 ## Linear Regression to Predict
 
-![alt text]("multiple linear regression summary")
+![alt text](https://github.com/jseverin1984/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable1.png "multiple linear regression summary")
 
 - Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
@@ -25,22 +25,22 @@ Note to the grader.  My summary statistics and t-tests numbers will vary when co
 many other students in the class and we all get the same numbers versus what is in the challenge.  So we must have a slightly different data set
 than what was used in the challenge.
 
-![alt text]("total summary")
+![alt text](https://github.com/jseverin1984/MechaCar_Statistical_Analysis/blob/main/Resources/total_summary.png "total summary")
 
 When looking at the summary of all coils manufactured from every lot, you can see that variance falls below the 100 PSI threshold set in
 the design specifications.
 
-![alt text]("lot summary")
+![alt text](https://github.com/jseverin1984/MechaCar_Statistical_Analysis/blob/main/Resources/lot_summary.png "lot summary")
 
 When looking at the variance of the coils PSI when grouped by manufacturing lot, it tells another story.  Lots one and two fall well below
 design specifications of tolerating a PSI variance below 100.  But lot 3 has a variance of 170, which is well above the allotted 100 PSI variance.
 
 ## T-Tests on Suspension Coils
 
-![alt text]("all coils t-test")
-![alt text]("lot 1 t-test")
-![alt text]("lot 2 t-test")
-![alt text]("lot 3 t-test")
+![alt text](https://github.com/jseverin1984/MechaCar_Statistical_Analysis/blob/main/Resources/all_coil_ttest.png "all coils t-test")
+![alt text](https://github.com/jseverin1984/MechaCar_Statistical_Analysis/blob/main/Resources/lot1_ttest.png "lot 1 t-test")
+![alt text](https://github.com/jseverin1984/MechaCar_Statistical_Analysis/blob/main/Resources/lot2_ttest.png "lot 2 t-test")
+![alt text](https://github.com/jseverin1984/MechaCar_Statistical_Analysis/blob/main/Resources/lot3_ttest.png "lot 3 t-test")
 
 The p-values for the all coils, lot 1 and 2 t-tests were all above .05. I cannot reject the null hypothesis for those test, and the
 tow means are statistically similar. Lot 3's p-value was below .05, so I reject the null hypothesis. There is a statistical difference
