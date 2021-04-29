@@ -1,6 +1,6 @@
 # MechaCar Statistical Analysis using R
 
-## Linear Regression to Predict
+## Linear Regression to Predict mpg
 
 ![alt text](https://github.com/jseverin1984/MechaCar_Statistical_Analysis/blob/main/Resources/Deliverable1.png "multiple linear regression summary")
 
